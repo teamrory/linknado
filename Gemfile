@@ -32,3 +32,8 @@ gem 'js-routes'
 gem 'oj'
 gem 'rabl'
 gem 'spinjs-rails'
+
+gem 'linkedin'
+
+# gem 'omniauth'
+# gem 'omniauth-linkedin'

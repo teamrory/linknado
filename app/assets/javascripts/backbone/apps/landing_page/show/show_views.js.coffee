@@ -10,3 +10,14 @@
 
   class Show.Landing extends App.Views.ItemView
     template: "landing_page/show/_landing"
+
+  #
+  # share: ->
+  #   e.preventDefault();
+  #   var url = $(e.currentTarget).attr('href');
+  #   this.openPopup(url, 600, 300);
+  #
+  # openPopup: (url, width, height)  ->
+  #   var left = (window.screen.width / 2) - ((width / 2) + 10)
+  #   var top = (window.screen.height / 2) - ((height / 2) + 50)
+  #   window.open(url, "ShareStremeWindow", "status=no,height=" + height + ",width=" + width + ",resizable=yes,left=" + left + ",top=" + top + ",screenX=" + left + ",screenY=" + top + ",toolbar=no,menubar=no,scrollbars=no,location=no,directories=no")

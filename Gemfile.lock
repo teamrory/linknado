@@ -46,6 +46,7 @@ GEM
     gon (5.0.4)
       actionpack (>= 2.3.0)
       json
+    hashie (2.0.5)
     hike (1.2.3)
     i18n (0.6.9)
     jbuilder (2.0.7)
@@ -58,12 +59,17 @@ GEM
       railties (>= 3.2)
       sprockets-rails
     json (1.8.1)
+    linkedin (0.4.6)
+      hashie (>= 1.2, < 2.1)
+      multi_json (~> 1.0)
+      oauth (~> 0.4)
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.25.1)
     minitest (5.3.3)
     multi_json (1.9.3)
+    oauth (0.4.7)
     oj (2.7.3)
     polyglot (0.3.4)
     rabl (0.9.3)
@@ -135,6 +141,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   js-routes
+  linkedin
   oj
   rabl
   rails (= 4.1.0.rc2)
