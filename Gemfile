@@ -27,7 +27,6 @@ gem 'spring',        group: :development
 gem 'coffee-rails', '~> 4.0.0'
 gem 'eco'
 gem 'gon'
-gem 'jquery-rails'
 gem 'js-routes'
 gem 'oj'
 gem 'rabl'
