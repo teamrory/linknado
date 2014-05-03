@@ -1,4 +1,4 @@
-@Demo.module "Components.Loading", (Loading, App, Backbone, Marionette, $, _) ->
+@Linkando.module "Components.Loading", (Loading, App, Backbone, Marionette, $, _) ->
 
   class Loading.LoadingController extends App.Controllers.Application
 

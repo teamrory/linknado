@@ -1,4 +1,4 @@
-@Demo = do (Backbone, Marionette) ->
+@Linkando = do (Backbone, Marionette) ->
 
 	App = new Marionette.Application
 
@@ -7,7 +7,7 @@
 		mainRegion:		"#main-region"
 		footerRegion: "#footer-region"
 
-	App.rootRoute = "/"
+	App.rootRoute = "connect"
 
 	# App.on "initialize:before", (options) ->
 	# 	@currentUser = App.request "set:current:user", options.currentUser

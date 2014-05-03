@@ -1,4 +1,4 @@
-@Demo.module "Views", (Views, App, Backbone, Marionette, $, _) ->
+@Linkando.module "Views", (Views, App, Backbone, Marionette, $, _) ->
 
 
   _remove = Marionette.View::remove

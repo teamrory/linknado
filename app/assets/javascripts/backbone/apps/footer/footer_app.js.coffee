@@ -1,4 +1,4 @@
-@Demo.module "FooterApp", (FooterApp, App, Backbone, Marionette, $, _) ->
+@Linkando.module "FooterApp", (FooterApp, App, Backbone, Marionette, $, _) ->
 	@startWithParent = false
 	
 	API =

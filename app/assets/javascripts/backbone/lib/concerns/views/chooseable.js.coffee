@@ -1,4 +1,4 @@
-@Demo.module "Concerns", (Concerns, App, Backbone, Marionette, $, _) ->
+@Linkando.module "Concerns", (Concerns, App, Backbone, Marionette, $, _) ->
 
   Concerns.Chooseable =
     modelEvents:

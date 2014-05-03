@@ -1,4 +1,4 @@
-@Demo.module "Controllers", (Controllers, App, Backbone, Marionette, $, _) ->
+@Linkando.module "Controllers", (Controllers, App, Backbone, Marionette, $, _) ->
 
   class Controllers.Application extends Marionette.Controller
 

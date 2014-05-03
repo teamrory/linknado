@@ -1,4 +1,4 @@
-@Demo.module "Utilities", (Utilities, App, Backbone, Marionette, $, _) ->
+@Linkando.module "Utilities", (Utilities, App, Backbone, Marionette, $, _) ->
 
 _.extend Marionette.Renderer,
 

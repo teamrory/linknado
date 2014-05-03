@@ -1,4 +1,4 @@
-@Demo.module "HeaderApp.Show", (Show, App, Backbone, Marionette, $, _) ->
+@Linkando.module "HeaderApp.Show", (Show, App, Backbone, Marionette, $, _) ->
 
   Show.Controller =
 
