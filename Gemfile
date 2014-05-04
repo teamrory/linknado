@@ -12,6 +12,9 @@ gem 'less'
 gem 'uglifier', '>= 1.3.0'
 
 
+gem 'google_drive'
+
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks

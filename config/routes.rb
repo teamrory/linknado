@@ -9,4 +9,6 @@ Rails.application.routes.draw do
   get '/oauth_account' => "sessions#oauth_account"
   get '/linkedin_oauth_url' => 'sessions#generate_linkedin_oauth_url'
 
+  post '/url', to: 'sessions#populate_spreadsheet'
+
 end

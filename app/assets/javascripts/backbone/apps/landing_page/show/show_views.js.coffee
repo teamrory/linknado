@@ -11,6 +11,23 @@
   class Show.Landing extends App.Views.ItemView
     template: "landing_page/show/_landing"
 
+    events:
+      "keydown" : 'strokeDetector'
+
+    strokeDetector: (e) =>
+
+      # model = @.model
+      if (e.keyCode ==32 || e.keyCode ==190 )
+        # url = $("input").val()
+        # urlModel = Backbone.Model.extend({urlRoot : '/url'})
+        # urlModel.set("url", url)
+        # window.urr = urlModel
+        $.ajax '/url',
+          type: 'POST'
+          dataType: 'json'
+          data: { url: $("input").val() }
+
+
   #
   # share: ->
   #   e.preventDefault();
