@@ -26,6 +26,7 @@ class SessionsController < ApplicationController
 		if pin
 			atoken, asecret = client.authorize_from_request(session[:rtoken], session[:rsecret], pin)
 			LinkedinOauthSetting.create!(:asecret => asecret, :atoken => atoken)
+      flash[:notice] = "You logged in with you Linkedin account"
 		end
 	redirect_to "/"
 	end
