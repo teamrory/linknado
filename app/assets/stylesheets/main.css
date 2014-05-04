@@ -52,6 +52,12 @@ section .btn{
 .two{
 
 }
+.two a span {
+	display: block;
+	padding: 6px;
+	text-align: center;
+	font-size: 120%;
+}
 .two img{
 	display: block;
 	margin: 0 auto;
@@ -66,4 +72,11 @@ section .btn{
 /* ========================================================= Extras ===*/
 hr{
 	border-top-width: 2px;
+}
+
+.notice {
+	padding: 12px;
+	background: #CE1010;
+	color: #FFF;
+	text-align: center;
 }

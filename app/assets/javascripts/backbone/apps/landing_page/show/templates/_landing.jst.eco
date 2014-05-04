@@ -3,7 +3,7 @@
 <section class="one">
 	<h2><span>1</span> Let’s get to know you</h2>
 	<div class="content">
-		<a href="/linkedin_oauth_url" class="btn btn-lg btn-primary">Sign in with LinkedIn</a>
+		<a href="/linkedin_oauth_url" class="btn btn-lg btn-primary"><i class="fa fa-linkedin-square"></i> Sign in with LinkedIn</a>
 	</div><!--/content-->
 </section>
 
@@ -53,7 +53,7 @@
 <section class="four">
 	<h2><span>4</span> Let’s search for more info</h2>
 	<div class="content">
-		<a href="/linkedin_oauth_url" class="btn btn-lg btn-primary">Sign in with LinkedIn</a>
+    <a href="/linkedin_oauth_url" class="btn btn-lg btn-primary"><i class="fa fa-linkedin-square"></i> Sign in with LinkedIn</a>
 	</div><!--/content-->
 </section>
 
