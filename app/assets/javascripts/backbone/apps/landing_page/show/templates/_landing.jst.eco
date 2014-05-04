@@ -1,1 +1,61 @@
-<h2> here comes landing page  <a href="/linkedin_oauth_url">login with linkedin</a> </h2>
+<div class="container">
+
+<section class="one">
+	<h2><span>1</span> Let’s get to know you</h2>
+	<div class="content">
+		<a href="/linkedin_oauth_url" class="btn btn-lg btn-primary">Sign in with LinkedIn</a>
+	</div><!--/content-->
+</section>
+
+<section class="two">
+	<h2><span>2</span> Who are you looking for</h2>
+	<div class="content">
+		<div class="row">
+			<div class="col-md-6">
+        <a href=""><img src="assets/icon-individuals.svg"><br>
+          <span>Individual</span>
+        </a>
+      </div>
+			<div class="col-md-6">
+        <a href=""><img src="assets/icon-companies.svg"><br>
+          <span>Company</spam>
+        </a>
+      </div>
+		</div><!--/row-->
+	</div><!--/content-->
+</section>
+
+<section class="three">
+	<h2><span>3</span> Data source from Google Sheets</h2>
+	<div class="content">
+		<form class="form-horizontal" role="form">
+			<div class="form-group">
+			<label for="inputEmail3" class="col-sm-2 control-label input-lg">URL</label>
+			<div class="col-sm-10">
+			<input type="email" class="form-control input-lg" id="inputEmail3" placeholder="http://">
+			</div><!--/col-sm-10-->
+			</div><!--/form-group-->
+		</form>
+		<hr/>
+		<div class="row">
+		<div class="col-md-2">
+			<h4>EXAMPLES</h4>
+		</div><!--/-->
+		<div class="col-md-10">
+			<p><a href="">Top 100 Investors in NYC</a></p>
+			<p><a href="">Techstars Mentors</a></p>
+			<p><a href="">500 investors from Angle List</a></p>
+		</div><!--/-->
+		</div><!--/row-->
+	</div><!--/content-->
+</section>
+
+<section class="four">
+	<h2><span>4</span> Let’s search for more info</h2>
+	<div class="content">
+		<a href="/linkedin_oauth_url" class="btn btn-lg btn-primary">Sign in with LinkedIn</a>
+	</div><!--/content-->
+</section>
+
+
+</div><!--/container-->
