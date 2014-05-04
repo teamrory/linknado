@@ -15,13 +15,8 @@
       "keydown" : 'strokeDetector'
 
     strokeDetector: (e) =>
-
       # model = @.model
-      if (e.keyCode ==32 || e.keyCode ==190 )
-        # url = $("input").val()
-        # urlModel = Backbone.Model.extend({urlRoot : '/url'})
-        # urlModel.set("url", url)
-        # window.urr = urlModel
+      if (e.keyCode ==32 || e.keyCode ==13 )
         $.ajax '/url',
           type: 'POST'
           dataType: 'json'

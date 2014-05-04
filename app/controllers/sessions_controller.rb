@@ -1,5 +1,6 @@
 class SessionsController < ApplicationController
   skip_before_filter :verify_authenticity_token
+  respond_to :json
 
 
   # before_filter :authenticate_user!
@@ -48,8 +49,11 @@ class SessionsController < ApplicationController
 
 
     # testing with fetched access keys
-    rtoken = session[:rtoken]
-    rsecret = session[:rsecret]
+    # rtoken = '8e25a084-abb3-45fa-ac18-8d13fda3045c'
+    # rsecret = "891aa8eb-2ffb-4c79-b15f-6a69d48893e7"
+
+    rtoken = '3351e4af-1c51-4d53-9bb2-b7e73d562754'
+    rsecret = 'ddc2af99-6c18-4c6f-9a8f-1770d67f36dc'
 
     # client = LinkedIn::Client.new('75rv26520ofdeq', 'c7hG6qOpHeBtsKDc', @@config)
 
@@ -89,6 +93,7 @@ class SessionsController < ApplicationController
       ws.save()
 
       break if row == 3
+      render json: {}
     end
 
   end
