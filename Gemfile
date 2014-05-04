@@ -40,5 +40,7 @@ gem 'spinjs-rails'
 
 gem 'linkedin'
 
+gem 'rubypython'
+
 # gem 'omniauth'
 # gem 'omniauth-linkedin'

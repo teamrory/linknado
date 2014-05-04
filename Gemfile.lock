@@ -28,6 +28,7 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
     arel (5.0.1.20140414130214)
+    blankslate (3.1.2)
     builder (3.2.2)
     coderay (1.1.0)
     coffee-rails (4.0.1)
@@ -47,6 +48,7 @@ GEM
     execjs (2.0.2)
     faraday (0.9.0)
       multipart-post (>= 1.2, < 3)
+    ffi (1.9.3)
     gon (5.0.4)
       actionpack (>= 2.3.0)
       json
@@ -125,6 +127,9 @@ GEM
     rdoc (4.1.1)
       json (~> 1.4)
     ref (1.0.5)
+    rubypython (0.6.3)
+      blankslate (>= 2.1.2.3)
+      ffi (>= 1.0.7)
     sdoc (0.4.0)
       json (~> 1.8)
       rdoc (~> 4.0, < 5.0)
@@ -176,6 +181,7 @@ DEPENDENCIES
   pry
   rabl
   rails (= 4.1.0.rc2)
+  rubypython
   sdoc (~> 0.4.0)
   spinjs-rails
   spring
